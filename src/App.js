@@ -14,7 +14,7 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div className="App" style={{padding:"10px"}}>
       <button onClick={addTask}>Add Task +</button>
       {tasks.map((task) => (
         <Task Title={task.Title} Date={task.Date} Description={task.Description} />
